@@ -14,13 +14,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 48px;
+  padding: 36px;
   position: fixed;
   width: 90%;
 }
 
 button {
-  padding: 16px 24px;
+  padding: 10px 12px;
   border-radius: 8px;
   border: 1px solid #885cf6;
   background-color: transparent;
@@ -91,7 +91,7 @@ input:checked {
   border: 2px solid #a78bfa;
 }
 
-@media (max-width: 570px) {
+@media (max-width: 415px) {
   button div {
     display: none;
   }
